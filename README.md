@@ -11,5 +11,6 @@ The purpose of this analysis is to review the production data for insights that 
 ## T-Tests on Suspension Coils
 
 ![image](https://github.com/awill1786/MechaCar_Statistical_Analysis/blob/main/Resources/Images/total%20PSI.png?raw=true)
+![image](https://github.com/awill1786/MechaCar_Statistical_Analysis/blob/main/Resources/Images/each%20PSI.png?raw=true)
 
 ## Study Design: MechaCar vs Competition
