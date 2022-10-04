@@ -4,8 +4,8 @@ The purpose of this analysis is to review the production data for insights that 
 
 ## Linear Regression to Predict MPG
 
-![image](https://github.com/awill1786/MechaCar_Statistical_Analysis/blob/main/Resources/Images/linear%20regression.png?raw=true)
 ![image](https://github.com/awill1786/MechaCar_Statistical_Analysis/blob/main/Resources/Images/lr%20summary.png?raw=true)
+According to our results the Intercept (5.08e-08), vehicle_length (2.60e-12), and ground_clearance (5.21e-08), give us a non-random amount of variance to the mpg values in the dataset because their pr(>|t|)<0.05. Therefore they have a significant impact on the mpg values.
 
 ## Summary Statistics on Suspension Coils
 
