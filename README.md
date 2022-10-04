@@ -7,6 +7,7 @@ The purpose of this analysis is to review the production data for insights that 
 
 
 ## Summary Statistics on Suspension Coils
+![image](https://github.com/awill1786/MechaCar_Statistical_Analysis/blob/main/Resources/Images/total_summary.png?raw=true)
 ![image](https://github.com/awill1786/MechaCar_Statistical_Analysis/blob/main/Resources/Images/lot_summary.png?raw=true)
 
 ## T-Tests on Suspension Coils
