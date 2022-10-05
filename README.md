@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
+
 ## Overview
+
 The purpose of this analysis is to review the production data for insights that may help the manufacturing team. Using RStudio, we will perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes, collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots,and run t-tests to determine if the manufacturing lots are statistically different from the mean population.
 
 ## Linear Regression to Predict MPG
@@ -29,10 +31,20 @@ In this analysis we perform t-tests to determine if all manufacturing lots and e
 
 ![image](https://github.com/awill1786/MechaCar_Statistical_Analysis/blob/main/Resources/Images/total%20PSI.png?raw=true)
 
-Because the calculated p-value of 1 is higher than 0.05 for all manufacturing lots, it is not right to reject the null hypothesis. The mean of all three lots is statistically similar to the presumed population mean of 1500.
+Because the calculated p-value of 0.06028 is higher than 0.05 for all manufacturing lots, it is not right to reject the null hypothesis. The mean of all three lots is statistically similar to the presumed population mean of 1500.
 
 ![image](https://github.com/awill1786/MechaCar_Statistical_Analysis/blob/main/Resources/Images/each%20PSI.png?raw=true)
 
-For Lot 1, the p-value of 1.568e-11 is lower than 0.05. Therefore it is right to reject the null hypothesis.
+For Lot 1, due to the p-value being 1, we can accept the null hypothesis that there is no statistical difference between the sample mean and the population mean.
+For Lot 2, with a p-value of 0.61 and a sample mean of 1,500.02, we cannot reject the null hypothesis, as the sample mean and the population mean are similar.
+For Lot 3, with a p-value of 0.04 and a sample mean of 1496.14, We can reject the null hypothesis, because the sample mean and population mean are not similar.
 
 ## Study Design: MechaCar vs Competition
+
+Consumer would be interested in several different metrics such as cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+A Null hypothesis as there is no difference between the metrics of MechaCar vs competition. Alternate hypothesis as there is a difference between the metrics of MechaCar vs competition.
+
+To test the hypothesis we should use T-test as if the p-value is less than the significance level, then the null hypothesis is rejected.
+
+To run the statistical test needs to use data as cost, city or highway fuel efficiency, horse power, maintenance cost, safety rating.
